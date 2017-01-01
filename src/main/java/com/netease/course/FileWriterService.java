@@ -18,7 +18,7 @@ public class FileWriterService implements File {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		System.out.println("打开文件成功");
+		System.out.println("打开文件");
 	}
 
 	public void destroy() {
@@ -27,7 +27,7 @@ public class FileWriterService implements File {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("关闭文件成功");
+		System.out.println("关闭文件");
 	}
 	
 	public void write(String content) {
@@ -36,7 +36,7 @@ public class FileWriterService implements File {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("写入文件成功");
+		System.out.println("写入文件");
 	}
 	
 	public String getInfo() {
