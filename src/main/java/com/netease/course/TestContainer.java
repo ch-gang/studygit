@@ -10,7 +10,7 @@ public class TestContainer {
 		
 		File file = context.getBean("file", FileWriterService.class);
 		System.out.println(file.getInfo());
-		file.write("content");
+		file.write("content1");
 		
 		((ConfigurableApplicationContext) context).close();
 	}
